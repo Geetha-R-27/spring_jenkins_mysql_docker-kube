@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    tools{
+        'maven' maven
+    }
     environment {
         IMAGE_NAME = "geethar27/kubectl"
         IMAGE_TAG  = "latest"
