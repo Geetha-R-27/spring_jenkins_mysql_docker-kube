@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        'maven' maven
+        maven 'maven'
     }
     environment {
         IMAGE_NAME = "geethar27/kubectl"
