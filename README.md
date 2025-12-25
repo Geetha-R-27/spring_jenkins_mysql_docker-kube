@@ -67,4 +67,4 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 - username: admin
 - password: admin
 ---
-*Script Done by SAK*
+*Script Done by Whitehorse*
