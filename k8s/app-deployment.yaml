@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: spring
-        image: chandu1701/sak_spring_jenkins_mysql_docker:latest
+        image: geethar27/gr_spring_jenkins_mysql_docker:latest
         ports:
         - containerPort: 8080
 
